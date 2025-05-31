@@ -1,0 +1,22 @@
+
+---
+
+**EchoForgeDelta**  
+**Description:**  
+Analyzes and compares large volumes of logs to find meaningful diffs between deployments or environments.
+
+```markdown
+# EchoForgeDelta – Log Diff & Insight Extractor
+
+EchoForgeDelta finds differences in logs between two time windows or versions, helping diagnose regressions and config drifts.
+
+## Features
+- Log diffing by message, timestamp, or pattern
+- Environment-to-environment comparison
+- Markdown and HTML report output
+
+## Usage
+```bash
+git clone https://github.com/your-username/EchoForgeDelta.git
+cd EchoForgeDelta
+python diff_logs.py
