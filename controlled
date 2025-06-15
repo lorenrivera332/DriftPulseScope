@@ -1,0 +1,22 @@
+
+---
+
+**SynthBranchLab**  
+**Description:**  
+Creates branching datasets with conditional dependencies and synthetic edge cases for test scenarios.
+
+```markdown
+# SynthBranchLab – Conditional Test Data Generator
+
+SynthBranchLab helps QA teams generate realistic yet controlled datasets with complex dependencies between fields.
+
+## Features
+- Branching logic via YAML or Python
+- Outlier and null-injection support
+- Export: JSON, CSV, Parquet
+
+## Usage
+```bash
+git clone https://github.com/your-username/SynthBranchLab.git
+cd SynthBranchLab
+python synth.py
